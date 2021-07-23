@@ -1,0 +1,62 @@
+## No 1
+1. buat variable jam dan detik
+2. isi variable jam dengan value number
+3. convert nilai yang ada pada variable jam dengan dikali 3600
+4. simpan nilai convert didalam variable detik
+5. tampilkan detik
+
+
+## No 2
+1. buat variable nilai1, nilai2
+2. jika nilai1 lebih besar dari nilai2 maka tampilkan nilai1 nilai terbesar
+3. jika nilai2 lebih besar dari nilai1 maka tampilkan nilai2 nilai terbesar
+4. jika nilai1 dan nilai2 memiliki nilai yang sama makan tampilkan nilai pertama sama dengan nilai kedua
+
+
+## No 3
+1. buatlah variable jumlahTraveller, hargaTiketPesawat
+2. jika membeli tiket one way maka jumlahTraveller dikali hargaTiketPesawat
+3. jika membeli tiket two way maka jumlahTraveller dikali (hargaTiketPesawat \* 2)
+4. tampilkan harga yang harus dibayar
+
+
+## No 4
+SET N with input value 10
+Number with 0
+  WHILE Number <= N
+  DISPLAY Number
+  Number ++
+let N = 100
+for (let i = 1;i <= N; i++) {
+    console.log(i);
+}
+
+
+## No 5
+DECLARE max with input
+DECLARE min with 1
+WHILE min <= max
+  if min % 3 === 0 && min % 5 === 0
+    DISPLAY "FizzBuzz"
+  else if min % 3 === 0
+    DISPLAY "Fizz"
+  else if min % 5 === 0
+    DISPLAY "Buzz"
+  else
+    DISPLAY min
+  min++
+
+  let max = 100;
+let min = 1;
+while (min <= max) {
+  if (min % 3 === 0 && min % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (min % 3 === 0) {
+    console.log("Fizz");
+  } else if (min % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(min);
+  }
+  min++;
+}
